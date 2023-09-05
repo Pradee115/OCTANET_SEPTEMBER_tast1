@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Landing Page</title>
+  <title>Landing Page</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -15,13 +15,13 @@
       margin: 0 auto;
       padding: 20px;
       background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 10px rgba(143, 197, 240, 0.1);
     }
 
     header {
       text-align: center;
       padding: 20px;
-      background-color: #333;
+      background-color: #3023e1;
       color: #fff;
     }
 
@@ -41,7 +41,7 @@
     footer {
       text-align: center;
       padding: 10px;
-      background-color: #333;
+      background-color: #2f21f6;
       color: #fff;
     }
   </style>
@@ -55,7 +55,7 @@
     <main>
       <section>
         <h2>About</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce convallis ex non quam posuere, id consectetur risus accumsan.</p>
+        <p>Lorem ipsum  is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
       </section>
 
       <section>
@@ -64,18 +64,19 @@
           <li>Feature 1</li>
           <li>Feature 2</li>
           <li>Feature 3</li>
+          <li>Feature 4</li>
         </ul>
       </section>
 
       <section>
         <h2>Contact</h2>
-        <p>Email: contact@example.com</p>
-        <p>Phone: 123-456-7890</p>
+        <p>Email:abd@gmail.com</p>
+        <p>Phone: 4100-232324</p>
       </section>
     </main>
 
     <footer>
-      &copy; 2023 My Landing Page. All rights reserved.
+      &copy; 2023 Landing Page.All rights reserved.
     </footer>
   </div>
 </body>
