@@ -1,83 +1,92 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <title>Landing Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f1f1f1;
-      margin: 0;
-      padding: 0;
-    }
+    <head>
+        <title>landing page</title>
+        <style>
+            *{
+                padding:0px;
+                margin:0px;
+                box-sizing:border-box;}
 
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #fff;
-      box-shadow: 0 0 10px rgba(143, 197, 240, 0.1);
-    }
+            header{
+                width:100%;
+                height:100vh;
+                background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url('https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2VyYWxhfGVufDB8fDB8fHww&w=1000&q=80');
+                background-size:cover;
+            }
+            nav{
+                width:100%;
+                height:100px;
+                color:white;
+                display:flex;
+                justify-content: space-around;
+                text-align: center;
+            }
+            .logo{
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+            .menu a{
+                text-decoration: none;
+                padding:10px 20px;
+                color:white;
 
-    header {
-      text-align: center;
-      padding: 20px;
-      background-color: #3023e1;
-      color: #fff;
-    }
+            }
+            .register a{
+                text-decoration: none;
+                padding:10px 20px;
+                color:white;
+                font-size: 20px;
+                background-color: indianred;
+                border-radius: 8px;
+            }
+            .main{
+                max-width: 650px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                text-align: center;
+                transform:translate(-50%,-50%);
+                color:white;
 
-    h1 {
-      font-size: 32px;
-      margin: 0;
-    }
+            }
+            .main span{
+                letter-spacing: 5px;
+            }
+            .main h1{
+                font-size: 3em;
+            }
+            .main a{
+                text-decoration: none;
+                background-color: indianred;
+                color: white;
+                padding:10px 2px;
+                letter-spacing: 5px;
+            }
 
-    main {
-      padding: 20px;
-    }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">TRAVEL</div>
+                <div class="menu">
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">SERVICES</a>
+                <a href="#">HELP</a>
+                </div>
+                <div class="register">
+                    <a href="#">REGISTER</a>
+                </div>
+            </nav>
+            <section class="main">
+                <span>ENJOY</span>
+                <br>
+                <h1>INTERNATIONAL TRAVEL AGENCY</h1>
+                <br>
+                <a href="#">BOOK YOUR TRIP</a>
+            </section>
+        </header>
+    </body>
 
-    section {
-      margin-bottom: 20px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #2f21f6;
-      color: #fff;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Welcome to My Landing Page</h1>
-    </header>
-
-    <main>
-      <section>
-        <h2>About</h2>
-        <p>Lorem ipsum  is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-      </section>
-
-      <section>
-        <h2>Features</h2>
-        <ul>
-          <li>Feature 1</li>
-          <li>Feature 2</li>
-          <li>Feature 3</li>
-          <li>Feature 4</li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Contact</h2>
-        <p>Email:abd@gmail.com</p>
-        <p>Phone: 4100-232324</p>
-      </section>
-    </main>
-
-    <footer>
-      &copy; 2023 Landing Page.All rights reserved.
-    </footer>
-  </div>
-</body>
-</html>
